@@ -1,33 +1,13 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 1981118022352275700
-  },
-  "m_Name": "388",
-  "m_id": 388,
-  "m_displayName": "BRAKMAR - 02 - Chevalier Tenebre",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": -731774027,
-    "b": -73990332,
-    "c": -983455942,
-    "d": 1006347220,
-    "e": 1067063321
-  },
-  "values": {
-    "type": "CharacterNameDefinition",
-    "id": 388
-  },
-  "name": {
-    "fr": "Chevalier Ténèbre",
-    "en": "Sir Darkness",
-    "es": "Caballero Tinieblas",
-    "de": "Ritter 'Finsternis'",
-    "pt": "Cavaleiro Tênebra"
-  }
+    "values": {
+        "type": "CharacterNameDefinition",
+        "id": 388
+    },
+    "name": {
+        "fr": "Chevalier T\u00e9n\u00e8bre",
+        "en": "Sir Darkness",
+        "es": "Caballero Tinieblas",
+        "de": "Ritter 'Finsternis'",
+        "pt": "Cavaleiro T\u00eanebra"
+    }
 }

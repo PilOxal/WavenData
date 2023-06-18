@@ -1,69 +1,35 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 3810213884270666000
-  },
-  "m_Name": "67081",
-  "m_id": 67081,
-  "m_displayName": "ASTRUB - Q08 - 00_Valider la Quest",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": -282648473,
-    "b": -2022841244,
-    "c": -1363738486,
-    "d": 342909833,
-    "e": -1044293266
-  },
-  "m_i18nDescriptionId": {
-    "a": -282648473,
-    "b": -2022841244,
-    "c": -1363738486,
-    "d": 342909833,
-    "e": 510236560
-  },
-  "m_i18nDescriptionFinishedId": {
-    "a": -282648473,
-    "b": -2022841244,
-    "c": -1363738486,
-    "d": 342909833,
-    "e": -1166435613
-  },
-  "values": {
-    "type": "AchievementDefinition",
-    "id": 67081,
-    "subAchievements": [
-      326
-    ],
-    "points": 10,
-    "secret": false,
-    "achievementType": 1,
-    "rewards": [],
-    "onSuccess": []
-  },
-  "name": {
-    "fr": "La Piscine",
-    "en": "The Pool",
-    "es": "La Piscina",
-    "de": "Das Schwimmbad",
-    "pt": "Piscina"
-  },
-  "description": {
-    "fr": "Sur une île au large d’Astrub, un survivant tente à tout prix de protéger sa maison d'une innondation imminente. Malheureusement, l’eau parvient toujours à s’infiltrer chez lui. {Skin:8383}, membre du {Faction:14}, missionne tout aventurier volontaire pour l’aider à préserver son îlot.",
-    "en": "On an island off the coast of Astrub, a survivor is struggling to protect his house from an imminent flood. Unfortunately, water is constantly seeping into his home. {Skin:8383}, a member of the {Faction:14}, is enrolling volunteer adventurers to help save his little island.",
-    "es": "En una isla frente a la costa de Astrub, un superviviente trata de proteger su casa de una inundación inminente. Por desgracia, el agua siempre acaba entrando en su casa. {Skin:8383}, miembro del {Faction:14}, recluta a cualquier aventurero voluntario para ayudarle a preservar su islote.",
-    "de": "Auf einer Insel bei Astrub versucht ein Überlebender um jeden Preis, sein Haus vor einer bevorstehenden Überschwemmung zu schützen. Leider dringt das Wasser immer wieder bei ihm ein. {Skin:8383}, Mitglied im {Faction:14}, beauftragt jeden freiwilligen Abenteurer, ihm dabei zu helfen, sein Inselchen zu schützen.",
-    "pt": "Em uma ilha ao largo de Astrub, um sobrevivente tenta de todas as formas proteger sua casa de uma inundação iminente. Infelizmente, a água consegue invadir o lar dele. {Skin:8383}, membro do {Faction:14}, está atrás de aventureiros que estejam dispostos a preservar a ilha."
-  },
-  "descriptionFinished": {
-    "fr": "En aidant {Skin:6121} à repousser les envahisseurs marins, vous avez découvert une nouvelle ressource qui pourrait être fort utile à la Nation. {Skin:8383} est ébahi par cette innovation, mais {Skin:6121[Vitor]} de son côté, patauge toujours dans l'eau...",
-    "en": "While helping {Skin:6121} push back the marine invaders, you discovered a new resource that could be of great use to the nation. {Skin:8383} is flabbergasted by the innovation, while {Skin:6121[Vitor]} is still up to his ankles in water…",
-    "es": "Ayudando a {Skin:6121} a repeler a los invasores marinos, has descubierto un nuevo recurso que podría serle muy útil a la nación. {Skin:8383} está atónito con este descubrimiento, pero {Skin:6121[Vitor]}, por su parte, sigue vadeando en el agua...",
-    "de": "Als du {Skin:6121} geholfen hast, die Angreifer vom Meer zurückzudrängen, hast du eine neue Ressource entdeckt, die der Nation sehr nützlich sein könnte. {Skin:8383} verblüfft diese Innovation, aber bei {Skin:6121[Viktor]} steht das Wasser immer noch knöchelhoch …",
-    "pt": "Enquanto ajudava {Skin:6121} a rechaçar os invasores marinhos, você descobriu um novo recurso que pode ser muito útil para a nação. {Skin:8383} ficou boquiaberto com a novidade, mas {Skin:6121[Vitor]} ainda tem suas dúvidas..."
-  }
+    "values": {
+        "type": "AchievementDefinition",
+        "id": 67081,
+        "subAchievements": [
+            326
+        ],
+        "points": 10,
+        "secret": false,
+        "achievementType": 1,
+        "rewards": [],
+        "onSuccess": []
+    },
+    "name": {
+        "fr": "La Piscine",
+        "en": "The Pool",
+        "es": "La Piscina",
+        "de": "Das Schwimmbad",
+        "pt": "Piscina"
+    },
+    "description": {
+        "fr": "Sur une \u00eele au large d\u2019Astrub, un survivant tente \u00e0 tout prix de prot\u00e9ger sa maison d'une innondation imminente. Malheureusement, l\u2019eau parvient toujours \u00e0 s\u2019infiltrer chez lui. {Skin:8383}, membre du {Faction:14}, missionne tout aventurier volontaire pour l\u2019aider \u00e0 pr\u00e9server son \u00eelot.",
+        "en": "On an island off the coast of Astrub, a survivor is struggling to protect his house from an imminent flood. Unfortunately, water is constantly seeping into his home. {Skin:8383}, a member of the {Faction:14}, is enrolling volunteer adventurers to help save his little island.",
+        "es": "En una isla frente a la costa de Astrub, un superviviente trata de proteger su casa de una inundaci\u00f3n inminente. Por desgracia, el agua siempre acaba entrando en su casa. {Skin:8383}, miembro del {Faction:14}, recluta a cualquier aventurero voluntario para ayudarle a preservar su islote.",
+        "de": "Auf einer Insel bei Astrub versucht ein \u00dcberlebender um jeden Preis, sein Haus vor einer bevorstehenden \u00dcberschwemmung zu sch\u00fctzen. Leider dringt das Wasser immer wieder bei ihm ein. {Skin:8383}, Mitglied im {Faction:14}, beauftragt jeden freiwilligen Abenteurer, ihm dabei zu helfen, sein Inselchen zu sch\u00fctzen.",
+        "pt": "Em uma ilha ao largo de Astrub, um sobrevivente tenta de todas as formas proteger sua casa de uma inunda\u00e7\u00e3o iminente. Infelizmente, a \u00e1gua consegue invadir o lar dele. {Skin:8383}, membro do {Faction:14}, est\u00e1 atr\u00e1s de aventureiros que estejam dispostos a preservar a ilha."
+    },
+    "descriptionFinished": {
+        "fr": "En aidant {Skin:6121} \u00e0 repousser les envahisseurs marins, vous avez d\u00e9couvert une nouvelle ressource qui pourrait \u00eatre fort utile \u00e0 la Nation. {Skin:8383} est \u00e9bahi par cette innovation, mais {Skin:6121[Vitor]} de son c\u00f4t\u00e9, patauge toujours dans l'eau...",
+        "en": "While helping {Skin:6121} push back the marine invaders, you discovered a new resource that could be of great use to the nation. {Skin:8383} is flabbergasted by the innovation, while {Skin:6121[Vitor]} is still up to his ankles in water\u2026",
+        "es": "Ayudando a {Skin:6121} a repeler a los invasores marinos, has descubierto un nuevo recurso que podr\u00eda serle muy \u00fatil a la naci\u00f3n. {Skin:8383} est\u00e1 at\u00f3nito con este descubrimiento, pero {Skin:6121[Vitor]}, por su parte, sigue vadeando en el agua...",
+        "de": "Als du {Skin:6121} geholfen hast, die Angreifer vom Meer zur\u00fcckzudr\u00e4ngen, hast du eine neue Ressource entdeckt, die der Nation sehr n\u00fctzlich sein k\u00f6nnte. {Skin:8383} verbl\u00fcfft diese Innovation, aber bei {Skin:6121[Viktor]} steht das Wasser immer noch kn\u00f6chelhoch\u00a0\u2026",
+        "pt": "Enquanto ajudava {Skin:6121} a recha\u00e7ar os invasores marinhos, voc\u00ea descobriu um novo recurso que pode ser muito \u00fatil para a na\u00e7\u00e3o. {Skin:8383} ficou boquiaberto com a novidade, mas {Skin:6121[Vitor]} ainda tem suas d\u00favidas..."
+    }
 }

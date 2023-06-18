@@ -1,124 +1,82 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -3207076657884500500
-  },
-  "m_Name": "382",
-  "m_id": 382,
-  "m_displayName": "BRACELET - INFINITE - Brassard Licorno",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": 603824231,
-    "b": -42214508,
-    "c": -1247877622,
-    "d": 1416415202,
-    "e": 1311658706
-  },
-  "m_i18nDescriptionId": {
-    "a": 603824231,
-    "b": -42214508,
-    "c": -1247877622,
-    "d": 1416415202,
-    "e": 788663915
-  },
-  "m_i18nBgDescriptionId": {
-    "a": 603824231,
-    "b": -42214508,
-    "c": -1247877622,
-    "d": 1416415202,
-    "e": 1336860550
-  },
-  "m_illustration": {
-    "assetGuid": "a14b0e2eb5216ab4492a4a0125c963f2"
-  },
-  "m_illustrationBig": {
-    "assetGuid": "a14b0e2eb5216ab4492a4a0125c963f2"
-  },
-  "m_affinity": 0,
-  "m_elementaryStates": 1,
-  "values": {
-    "type": "EquipmentDefinition",
-    "id": 382,
-    "merchantCosts": [],
-    "premiumItem": false,
-    "rarity": 4,
-    "unlockableSkillIds": [
-      60,
-      656470,
-      656755,
-      656844,
-      659288,
-      656860
-    ],
-    "equipableByPlayers": true,
-    "upgradeRuleId": 525,
-    "useCharges": false,
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [],
-      "externalDynamicValueReferences": [],
-      "hasEffects": false,
-      "keywordReferences": [
-        "LICORNO"
-      ]
+    "values": {
+        "type": "EquipmentDefinition",
+        "id": 382,
+        "merchantCosts": [],
+        "premiumItem": false,
+        "rarity": 4,
+        "unlockableSkillIds": [
+            60,
+            656470,
+            656755,
+            656844,
+            659288,
+            656860
+        ],
+        "equipableByPlayers": true,
+        "upgradeRuleId": 525,
+        "useCharges": false,
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [],
+            "externalDynamicValueReferences": [],
+            "hasEffects": false,
+            "keywordReferences": [
+                "LICORNO"
+            ]
+        },
+        "family": 0,
+        "equipmentType": 2,
+        "petSkins": null,
+        "passiveModifiers": [
+            {
+                "type": "CaracBuffModifier",
+                "holder": 8,
+                "value": {
+                    "type": "LinearLevelOnlyBasedDynamicValue",
+                    "referenceId": "",
+                    "baseValue": 0,
+                    "factor": 1
+                },
+                "caracIds": [
+                    58
+                ]
+            },
+            {
+                "type": "CaracBuffModifier",
+                "holder": 8,
+                "value": {
+                    "type": "LinearLevelOnlyBasedDynamicValue",
+                    "referenceId": "",
+                    "baseValue": 0,
+                    "factor": 1
+                },
+                "caracIds": [
+                    1
+                ]
+            }
+        ],
+        "spellEffectData": []
     },
-    "family": 0,
-    "equipmentType": 2,
-    "petSkins": null,
-    "passiveModifiers": [
-      {
-        "type": "CaracBuffModifier",
-        "holder": 8,
-        "value": {
-          "type": "LinearLevelOnlyBasedDynamicValue",
-          "referenceId": "",
-          "baseValue": 0,
-          "factor": 1
-        },
-        "caracIds": [
-          58
-        ]
-      },
-      {
-        "type": "CaracBuffModifier",
-        "holder": 8,
-        "value": {
-          "type": "LinearLevelOnlyBasedDynamicValue",
-          "referenceId": "",
-          "baseValue": 0,
-          "factor": 1
-        },
-        "caracIds": [
-          1
-        ]
-      }
-    ],
-    "spellEffectData": []
-  },
-  "name": {
-    "fr": "Brassard Licorno",
-    "en": "Unicorno Armband",
-    "es": "Brazalete Unicornete",
-    "de": "Armschiene des Regenbogeneinhorns",
-    "pt": "Braçadeira Licorna"
-  },
-  "description": {
-    "fr": "{%Attack} Déclenche un {#LICORNO} si la cible a l'état {%astral}.",
-    "en": "{%Attack} Triggers one {#LICORNO} if the target is in the {%astral} state.",
-    "es": "{%Attack} Activa un {#LICORNO} si el objetivo tiene el estado {%astral}.",
-    "de": "{%Attack} Löst ein\\_{#LICORNO} aus, wenn das Ziel im Zustand {%astral} ist.",
-    "pt": "{%Attack} Aciona uma {#LICORNO} se o alvo estiver no estado {%astral}."
-  },
-  "bgDescription": {
-    "fr": "N'imaginez pas déployer des paillettes et faire jaillir des arcs-en-ciel. Ce n'est qu'un brassard, après-tout.",
-    "en": "Don't expect this to scatter glitter around and give off rainbows. After all, it's just an armband.",
-    "es": "Es una fantasía de brazalete, pero tampoco esperes que vaya soltando purpurina y arcoíris por ahí.",
-    "de": "Denk nicht mal dran, Pailletten zu verteilen und Regenbogen emporzuschießen. Das ist schließlich nur eine Armbinde.",
-    "pt": "Não pense que você vai sair por aí, espalhando purpurina e colorindo o arco-íris. É só uma braçadeira no fim das contas."
-  }
+    "name": {
+        "fr": "Brassard Licorno",
+        "en": "Unicorno Armband",
+        "es": "Brazalete Unicornete",
+        "de": "Armschiene des Regenbogeneinhorns",
+        "pt": "Bra\u00e7adeira Licorna"
+    },
+    "description": {
+        "fr": "{%Attack} D\u00e9clenche un {#LICORNO} si la cible a l'\u00e9tat {%astral}.",
+        "en": "{%Attack} Triggers one {#LICORNO} if the target is in the {%astral} state.",
+        "es": "{%Attack} Activa un {#LICORNO} si el objetivo tiene el estado {%astral}.",
+        "de": "{%Attack} L\u00f6st ein\\_{#LICORNO} aus, wenn das Ziel im Zustand {%astral} ist.",
+        "pt": "{%Attack} Aciona uma {#LICORNO} se o alvo estiver no estado {%astral}."
+    },
+    "bgDescription": {
+        "fr": "N'imaginez pas d\u00e9ployer des paillettes et faire jaillir des arcs-en-ciel. Ce n'est qu'un brassard, apr\u00e8s-tout.",
+        "en": "Don't expect this to scatter glitter around and give off rainbows. After all, it's just an armband.",
+        "es": "Es una fantas\u00eda de brazalete, pero tampoco esperes que vaya soltando purpurina y arco\u00edris por ah\u00ed.",
+        "de": "Denk nicht mal dran, Pailletten zu verteilen und Regenbogen emporzuschie\u00dfen. Das ist schlie\u00dflich nur eine Armbinde.",
+        "pt": "N\u00e3o pense que voc\u00ea vai sair por a\u00ed, espalhando purpurina e colorindo o arco-\u00edris. \u00c9 s\u00f3 uma bra\u00e7adeira no fim das contas."
+    }
 }

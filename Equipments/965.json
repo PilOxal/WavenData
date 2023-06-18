@@ -1,144 +1,102 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -3207076657884500500
-  },
-  "m_Name": "965",
-  "m_id": 965,
-  "m_displayName": "RING - RARE - Anneau Cultant",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": 369226862,
-    "b": -884430012,
-    "c": -688317320,
-    "d": -530088425,
-    "e": 1825939026
-  },
-  "m_i18nDescriptionId": {
-    "a": 369226862,
-    "b": -884430012,
-    "c": -688317320,
-    "d": -530088425,
-    "e": -1486204888
-  },
-  "m_i18nBgDescriptionId": {
-    "a": 369226862,
-    "b": -884430012,
-    "c": -688317320,
-    "d": -530088425,
-    "e": -1369697399
-  },
-  "m_illustration": {
-    "assetGuid": "1d6c72f1cc755764381189e849fc7d51"
-  },
-  "m_illustrationBig": {
-    "assetGuid": "faa7d121274ea274ab2a68190640b92c"
-  },
-  "m_affinity": 0,
-  "m_elementaryStates": 1,
-  "values": {
-    "type": "EquipmentDefinition",
-    "id": 965,
-    "merchantCosts": [],
-    "premiumItem": false,
-    "rarity": 1,
-    "unlockableSkillIds": [
-      196,
-      52241,
-      691183,
-      51666,
-      690906,
-      690978
-    ],
-    "equipableByPlayers": true,
-    "upgradeRuleId": 274,
-    "useCharges": false,
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [
-        {
-          "type": "SumValue",
-          "referenceId": "x",
-          "valuesToSum": [
+    "values": {
+        "type": "EquipmentDefinition",
+        "id": 965,
+        "merchantCosts": [],
+        "premiumItem": false,
+        "rarity": 1,
+        "unlockableSkillIds": [
+            196,
+            52241,
+            691183,
+            51666,
+            690906,
+            690978
+        ],
+        "equipableByPlayers": true,
+        "upgradeRuleId": 274,
+        "useCharges": false,
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [
+                {
+                    "type": "SumValue",
+                    "referenceId": "x",
+                    "valuesToSum": [
+                        {
+                            "type": "ConstIntegerValue",
+                            "referenceId": "",
+                            "value": 10
+                        },
+                        {
+                            "type": "ConditionalValue",
+                            "referenceId": "",
+                            "condition": {
+                                "type": "HolderHasSkillCondition",
+                                "skill": 422
+                            },
+                            "ifTrue": {
+                                "type": "ConstIntegerValue",
+                                "referenceId": "y",
+                                "value": 10
+                            },
+                            "ifFalse": {
+                                "type": "ConstIntegerValue",
+                                "referenceId": "",
+                                "value": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "y",
+                    "value": 10
+                }
+            ],
+            "externalDynamicValueReferences": [],
+            "hasEffects": false,
+            "keywordReferences": []
+        },
+        "family": 0,
+        "equipmentType": 1,
+        "petSkins": null,
+        "passiveModifiers": [
             {
-              "type": "ConstIntegerValue",
-              "referenceId": "",
-              "value": 10
-            },
-            {
-              "type": "ConditionalValue",
-              "referenceId": "",
-              "condition": {
-                "type": "HolderHasSkillCondition",
-                "skill": 422
-              },
-              "ifTrue": {
-                "type": "ConstIntegerValue",
-                "referenceId": "y",
-                "value": 10
-              },
-              "ifFalse": {
-                "type": "ConstIntegerValue",
-                "referenceId": "",
-                "value": 0
-              }
+                "type": "CaracBuffModifier",
+                "holder": 9,
+                "value": {
+                    "type": "LinearLevelOnlyBasedDynamicValue",
+                    "referenceId": "",
+                    "baseValue": 0,
+                    "factor": 1
+                },
+                "caracIds": [
+                    28
+                ]
             }
-          ]
-        },
-        {
-          "type": "ConstIntegerValue",
-          "referenceId": "y",
-          "value": 10
-        }
-      ],
-      "externalDynamicValueReferences": [],
-      "hasEffects": false,
-      "keywordReferences": []
+        ],
+        "spellEffectData": []
     },
-    "family": 0,
-    "equipmentType": 1,
-    "petSkins": null,
-    "passiveModifiers": [
-      {
-        "type": "CaracBuffModifier",
-        "holder": 9,
-        "value": {
-          "type": "LinearLevelOnlyBasedDynamicValue",
-          "referenceId": "",
-          "baseValue": 0,
-          "factor": 1
-        },
-        "caracIds": [
-          28
-        ]
-      }
-    ],
-    "spellEffectData": []
-  },
-  "name": {
-    "fr": "Anneau Cultant",
-    "en": "Obscu Ring",
-    "es": "Anillo Cultador",
-    "de": "Okkulter Ring",
-    "pt": "Ocultanel"
-  },
-  "description": {
-    "fr": "Lorsque vous appliquez un état élémentaire\\_: {value:x,+,percent} de dégâts à votre prochain sort.",
-    "en": "When you apply an elemental state: {value:x,+,percent} damage to your next spell.",
-    "es": "Cuando aplicas un estado elemental: {value:x,+,percent} de daño a tu próximo hechizo.",
-    "de": "Wenn du einen Elementarzustand anwendest: {value:x,+,percent} Schaden bei deinem nächsten Zauber.",
-    "pt": "Ao aplicar um estado elementar: {value:x,+,percent} de danos ao seu próximo feitiço."
-  },
-  "bgDescription": {
-    "fr": "Un bel accessoire qui pourrait bien vous aider à cacher votre jeu à vos adversaires... À condition d'avoir un jeu à cacher bien entendu, ça reste un anneau après tout.",
-    "en": "This lovely accessory could well help you hide your cards from your opponents' prying eyes. Provided, of course, you have a hand worth obscuring. It is just a ring, after all.",
-    "es": "Un bonito accesorio que podría servirte para ocultar tus planes a tus adversarios… Siempre que tengas algún plan que ocultar, claro, pues no deja de ser un anillo.",
-    "de": "Ein schickes Accessoire, das deine Machenschaften vor deinen Gegnern verbergen kann ... Natürlich nur, wenn du etwas zu verbergen hast – schließlich ist und bleibt er nur ein Ring.",
-    "pt": "Um ótimo acessório que poderá te ajudar a esconder o jogo do seus adversários... Desde que você tenha algum jogo pra esconder, é claro. Afinal, continua sendo apenas um anel."
-  }
+    "name": {
+        "fr": "Anneau Cultant",
+        "en": "Obscu Ring",
+        "es": "Anillo Cultador",
+        "de": "Okkulter Ring",
+        "pt": "Ocultanel"
+    },
+    "description": {
+        "fr": "Lorsque vous appliquez un \u00e9tat \u00e9l\u00e9mentaire\\_: {value:x,+,percent} de d\u00e9g\u00e2ts \u00e0 votre prochain sort.",
+        "en": "When you apply an elemental state: {value:x,+,percent} damage to your next spell.",
+        "es": "Cuando aplicas un estado elemental: {value:x,+,percent} de da\u00f1o a tu pr\u00f3ximo hechizo.",
+        "de": "Wenn du einen Elementarzustand anwendest: {value:x,+,percent} Schaden bei deinem n\u00e4chsten Zauber.",
+        "pt": "Ao aplicar um estado elementar: {value:x,+,percent} de danos ao seu pr\u00f3ximo feiti\u00e7o."
+    },
+    "bgDescription": {
+        "fr": "Un bel accessoire qui pourrait bien vous aider \u00e0 cacher votre jeu \u00e0 vos adversaires... \u00c0 condition d'avoir un jeu \u00e0 cacher bien entendu, \u00e7a reste un anneau apr\u00e8s tout.",
+        "en": "This lovely accessory could well help you hide your cards from your opponents' prying eyes. Provided, of course, you have a hand worth obscuring. It is just a ring, after all.",
+        "es": "Un bonito accesorio que podr\u00eda servirte para ocultar tus planes a tus adversarios\u2026 Siempre que tengas alg\u00fan plan que ocultar, claro, pues no deja de ser un anillo.",
+        "de": "Ein schickes Accessoire, das deine Machenschaften vor deinen Gegnern verbergen kann ... Nat\u00fcrlich nur, wenn du etwas zu verbergen hast \u2013 schlie\u00dflich ist und bleibt er nur ein Ring.",
+        "pt": "Um \u00f3timo acess\u00f3rio que poder\u00e1 te ajudar a esconder o jogo do seus advers\u00e1rios... Desde que voc\u00ea tenha algum jogo pra esconder, \u00e9 claro. Afinal, continua sendo apenas um anel."
+    }
 }

@@ -1,67 +1,37 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -6962076302617524000
-  },
-  "m_Name": "13",
-  "m_id": 13,
-  "m_displayName": "WEAPON - CRA - EXPINGOLE - Maître Expingole",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": 531330744,
-    "b": 1649998100,
-    "c": 1107977705,
-    "d": -738268109,
-    "e": 334839609
-  },
-  "m_i18nDescriptionId": {
-    "a": 531330744,
-    "b": 1649998100,
-    "c": 1107977705,
-    "d": -738268109,
-    "e": 1674615435
-  },
-  "m_skillIconReference": {
-    "assetGuid": "8d52f11e3259cb34a91c4503dda2ca01"
-  },
-  "values": {
-    "type": "SkillDefinition",
-    "id": 13,
-    "skillUsageType": 5,
-    "hideDescriptionInTooltip": false,
-    "passiveModifiers": [],
-    "nonFightSkillEffects": [],
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [
-        {
-          "type": "ConstIntegerValue",
-          "referenceId": "v",
-          "value": 20
+    "values": {
+        "type": "SkillDefinition",
+        "id": 13,
+        "skillUsageType": 5,
+        "hideDescriptionInTooltip": false,
+        "passiveModifiers": [],
+        "nonFightSkillEffects": [],
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [
+                {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "v",
+                    "value": 20
+                }
+            ],
+            "externalDynamicValueReferences": [],
+            "hasEffects": true,
+            "keywordReferences": []
         }
-      ],
-      "externalDynamicValueReferences": [],
-      "hasEffects": true,
-      "keywordReferences": []
+    },
+    "name": {
+        "fr": "Ma\u00eetre Expingole",
+        "en": "Blunderbust Master",
+        "es": "Maestro Arcabux",
+        "de": "Donnerb\u00fcx-Meister",
+        "pt": "Mestre Expingarda"
+    },
+    "description": {
+        "fr": "Lorsque votre h\u00e9ros gagne une {%AURA_SIGHT}\\_:\\v {value:v,+,percent} \u00e0 son {%AT} jusqu\u2019\u00e0 la fin du tour.",
+        "en": "When your hero gains a {%AURA_SIGHT}:\\v {value:v,+,percent} to their {%AT} until the end of the turn.",
+        "es": "Cuando tu h\u00e9roe gana un {%AURA_SIGHT}:\\v {value:v,+,percent} a su {%AT} hasta el final.",
+        "de": "Wenn deine Held eine\\_{%AURA_SIGHT} erh\u00e4lt:\\vBis zum Ende der Runde {value:v,+,percent} auf seinen {%AT}.",
+        "pt": "Quando seu her\u00f3i ganha uma {%AURA_SIGHT}:\\v {value:v,+,percent} ao seu {%AT} at\u00e9 o fim do turno."
     }
-  },
-  "name": {
-    "fr": "Maître Expingole",
-    "en": "Blunderbust Master",
-    "es": "Maestro Arcabux",
-    "de": "Donnerbüx-Meister",
-    "pt": "Mestre Expingarda"
-  },
-  "description": {
-    "fr": "Lorsque votre héros gagne une {%AURA_SIGHT}\\_:\\v {value:v,+,percent} à son {%AT} jusqu’à la fin du tour.",
-    "en": "When your hero gains a {%AURA_SIGHT}:\\v {value:v,+,percent} to their {%AT} until the end of the turn.",
-    "es": "Cuando tu héroe gana un {%AURA_SIGHT}:\\v {value:v,+,percent} a su {%AT} hasta el final.",
-    "de": "Wenn deine Held eine\\_{%AURA_SIGHT} erhält:\\vBis zum Ende der Runde {value:v,+,percent} auf seinen {%AT}.",
-    "pt": "Quando seu herói ganha uma {%AURA_SIGHT}:\\v {value:v,+,percent} ao seu {%AT} até o fim do turno."
-  }
 }

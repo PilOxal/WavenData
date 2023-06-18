@@ -1,124 +1,89 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 4088305958716738000
-  },
-  "m_Name": "27210",
-  "m_id": 27210,
-  "m_displayName": "MONSTRE CHUCHOTEUR - Barriere Magique",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": -159171623,
-    "b": 603365684,
-    "c": -10691240,
-    "d": -1330081111,
-    "e": -1493956238
-  },
-  "m_i18nDescriptionId": {
-    "a": -159171623,
-    "b": 603365684,
-    "c": -10691240,
-    "d": -1330081111,
-    "e": 773037763
-  },
-  "m_elementaryStates": 1,
-  "m_illustrationReference": {
-    "assetGuid": "ce87e0afc4e52504998df8202784fef4"
-  },
-  "m_spellEffectOverrideReferences": {
-    "m_keys": [],
-    "m_values": []
-  },
-  "values": {
-    "type": "SpellDefinition",
-    "id": 27210,
-    "merchantCosts": [],
-    "premiumItem": false,
-    "rarity": 0,
-    "unlockableSkillIds": [],
-    "upgradeRuleId": null,
-    "canCrit": false,
-    "isEphemeral": false,
-    "tags": [],
-    "details": {
-      "type": "SpellDetails",
-      "equipableByPlayers": false,
-      "element": null,
-      "specificToWeapon": null,
-      "families": [
-        52
-      ],
-      "heroSkillPointsCost": null,
-      "bannedInPvp": false
-    },
-    "gaugeToModifyOnSpellPlay": [],
-    "costs": [
-      {
-        "type": "ActionPointsCost",
-        "value": {
-          "type": "ConstIntegerValue",
-          "referenceId": "",
-          "value": 4
-        }
-      }
-    ],
-    "castCondition": null,
-    "castTarget": {
-      "type": "OneCastTargetDefinition",
-      "selector": {
-        "type": "FilteredCharacterSelector",
-        "filters": [
-          {
-            "type": "TeamFilter",
-            "isIdentical": true,
-            "reference": {
-              "type": "CasterSelector"
-            }
-          }
-        ]
-      }
-    },
-    "spellEffectData": [
-      {
-        "type": "SpellEffectInstantiationData",
-        "spellEffect": "e9459e5d65c6eae4bb1bc5afdbc5b75a",
-        "originTarget": {
-          "type": "FirstCastTargetSelector"
+    "values": {
+        "type": "SpellDefinition",
+        "id": 27210,
+        "merchantCosts": [],
+        "premiumItem": false,
+        "rarity": 0,
+        "unlockableSkillIds": [],
+        "upgradeRuleId": null,
+        "canCrit": false,
+        "isEphemeral": false,
+        "tags": [],
+        "details": {
+            "type": "SpellDetails",
+            "equipableByPlayers": false,
+            "element": null,
+            "specificToWeapon": null,
+            "families": [
+                52
+            ],
+            "heroSkillPointsCost": null,
+            "bannedInPvp": false
         },
-        "orientation": null,
-        "delay": null
-      }
-    ],
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [],
-      "externalDynamicValueReferences": [],
-      "hasEffects": true,
-      "keywordReferences": [
-        {
-          "type": 20,
-          "id": 19
+        "gaugeToModifyOnSpellPlay": [],
+        "costs": [
+            {
+                "type": "ActionPointsCost",
+                "value": {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "",
+                    "value": 4
+                }
+            }
+        ],
+        "castCondition": null,
+        "castTarget": {
+            "type": "OneCastTargetDefinition",
+            "selector": {
+                "type": "FilteredCharacterSelector",
+                "filters": [
+                    {
+                        "type": "TeamFilter",
+                        "isIdentical": true,
+                        "reference": {
+                            "type": "CasterSelector"
+                        }
+                    }
+                ]
+            }
+        },
+        "spellEffectData": [
+            {
+                "type": "SpellEffectInstantiationData",
+                "spellEffect": "e9459e5d65c6eae4bb1bc5afdbc5b75a",
+                "originTarget": {
+                    "type": "FirstCastTargetSelector"
+                },
+                "orientation": null,
+                "delay": null
+            }
+        ],
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [],
+            "externalDynamicValueReferences": [],
+            "hasEffects": true,
+            "keywordReferences": [
+                {
+                    "type": 20,
+                    "id": 19
+                }
+            ]
         }
-      ]
+    },
+    "name": {
+        "fr": "Barri\u00e8re Magique",
+        "en": "Magic Barrier",
+        "es": "Barrera M\u00e1gica",
+        "de": "Magische Barriere",
+        "pt": "Barreira M\u00e1gica"
+    },
+    "description": {
+        "fr": "Conf\u00e8re {PropertyEffect:19} \u00e0 un alli\u00e9 jusqu'aux prochains d\u00e9g\u00e2ts qu'il subit.",
+        "en": "Confers {PropertyEffect:19} on an ally until the next time they take damage.",
+        "es": "Confiere {PropertyEffect:19} a un aliado hasta los pr\u00f3ximos da\u00f1os que este sufra.",
+        "de": "Verleiht einem Verb\u00fcndeten {PropertyEffect:19} bis zum n\u00e4chsten Schaden, den er erleidet.",
+        "pt": "Concede {PropertyEffect:19} a um aliado at\u00e9 os pr\u00f3ximos danos que ele sofrer."
     }
-  },
-  "name": {
-    "fr": "Barrière Magique",
-    "en": "Magic Barrier",
-    "es": "Barrera Mágica",
-    "de": "Magische Barriere",
-    "pt": "Barreira Mágica"
-  },
-  "description": {
-    "fr": "Confère {PropertyEffect:19} à un allié jusqu'aux prochains dégâts qu'il subit.",
-    "en": "Confers {PropertyEffect:19} on an ally until the next time they take damage.",
-    "es": "Confiere {PropertyEffect:19} a un aliado hasta los próximos daños que este sufra.",
-    "de": "Verleiht einem Verbündeten {PropertyEffect:19} bis zum nächsten Schaden, den er erleidet.",
-    "pt": "Concede {PropertyEffect:19} a um aliado até os próximos danos que ele sofrer."
-  }
 }

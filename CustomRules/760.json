@@ -1,64 +1,27 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 641088705933543200
-  },
-  "m_Name": "760",
-  "m_id": 760,
-  "m_displayName": "BRAKMAR - 15 - La fête du slip",
-  "m_availability": 3,
-  "m_illustration": {
-    "assetGuid": "e712fdb58334aa24aaee8696a6247a53"
-  },
-  "m_i18nNameId": {
-    "a": 874842237,
-    "b": -328669292,
-    "c": -1736466757,
-    "d": 954377974,
-    "e": 1895538653
-  },
-  "m_i18nDescriptionId": {
-    "a": 874842237,
-    "b": -328669292,
-    "c": -1736466757,
-    "d": 954377974,
-    "e": -1739424338
-  },
-  "m_i18nSummaryId": {
-    "a": 0,
-    "b": 0,
-    "c": 0,
-    "d": 0,
-    "e": 0
-  },
-  "values": {
-    "type": "CustomRuleDefinition",
-    "id": 760,
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [],
-      "externalDynamicValueReferences": [],
-      "hasEffects": false,
-      "keywordReferences": []
+    "values": {
+        "type": "CustomRuleDefinition",
+        "id": 760,
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [],
+            "externalDynamicValueReferences": [],
+            "hasEffects": false,
+            "keywordReferences": []
+        }
+    },
+    "name": {
+        "fr": "La f\u00eate du slip",
+        "en": "Panty Party",
+        "es": "La fiesta del slip",
+        "de": "H\u00f6schen-Fest",
+        "pt": "Festa da Cueca"
+    },
+    "description": {
+        "fr": "{%FightStarted}\nConf\u00e8re les <b>SLIPS</b> \u00e0 4\\_<b>ROUBLARDS</b> al\u00e9atoires.",
+        "en": "{%FightStarted}\nConfers <b>UNDERWEAR</b> on 4\\_random <b>ROGUES</b>.",
+        "es": "{%FightStarted}\nConfiere los <b>SLIPS</b> a 4\\_<b>TYMADORES</b> aleatorios.",
+        "de": "{%FightStarted}\nVerleiht 4\\_zuf\u00e4lligen <b>HALSABSCHNEIDERN</b> <b>H\u00d6SCHEN</b>.",
+        "pt": "{%FightStarted}\nConcede <b>CUECAS</b> a 4\\_<b>LADINOS</b> aleat\u00f3rios."
     }
-  },
-  "name": {
-    "fr": "La fête du slip",
-    "en": "Panty Party",
-    "es": "La fiesta del slip",
-    "de": "Höschen-Fest",
-    "pt": "Festa da Cueca"
-  },
-  "description": {
-    "fr": "{%FightStarted}\nConfère les <b>SLIPS</b> à 4\\_<b>ROUBLARDS</b> aléatoires.",
-    "en": "{%FightStarted}\nConfers <b>UNDERWEAR</b> on 4\\_random <b>ROGUES</b>.",
-    "es": "{%FightStarted}\nConfiere los <b>SLIPS</b> a 4\\_<b>TYMADORES</b> aleatorios.",
-    "de": "{%FightStarted}\nVerleiht 4\\_zufälligen <b>HALSABSCHNEIDERN</b> <b>HÖSCHEN</b>.",
-    "pt": "{%FightStarted}\nConcede <b>CUECAS</b> a 4\\_<b>LADINOS</b> aleatórios."
-  }
 }

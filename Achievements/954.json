@@ -1,69 +1,35 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 3810213884270666000
-  },
-  "m_Name": "954",
-  "m_id": 954,
-  "m_displayName": "ASTRUB - Q06 - 00_Valider la Quest",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": -1446506542,
-    "b": 381833988,
-    "c": 2115106266,
-    "d": 13127332,
-    "e": 1166292312
-  },
-  "m_i18nDescriptionId": {
-    "a": -1446506542,
-    "b": 381833988,
-    "c": 2115106266,
-    "d": 13127332,
-    "e": -791202685
-  },
-  "m_i18nDescriptionFinishedId": {
-    "a": -1446506542,
-    "b": 381833988,
-    "c": 2115106266,
-    "d": 13127332,
-    "e": -430745309
-  },
-  "values": {
-    "type": "AchievementDefinition",
-    "id": 954,
-    "subAchievements": [
-      16
-    ],
-    "points": 10,
-    "secret": false,
-    "achievementType": 1,
-    "rewards": [],
-    "onSuccess": []
-  },
-  "name": {
-    "fr": "Le Marais Fangeux",
-    "en": "The Fanged Swamp",
-    "es": "El Pantano Fangoso",
-    "de": "Der schlammige Sumpf",
-    "pt": "Pântano Abjeto"
-  },
-  "description": {
-    "fr": "On raconte que {DungeonZone:99} abriterait une créature étrange que nul n'aurait jamais aperçu. Elle voyagerait d’îlot en îlot, mais reviendrait toujours à sa tanière. {Skin:1450}, membre du {Faction:14}, doit se rendre sur l'île marécageuse afin de récolter des herbacées utiles à ses potions et onguents. Elle missionne tout aventurier volontaire pour l'accompagner et couvrir ses arrières.",
-    "en": "That say that {DungeonZone:99} is home to a strange creature that no one has ever seen. It's said it travels from island to island, but always goes back to its lair. {Skin:1450}, a member of the {Faction:14}, must go to the swampy island to collect herbaceous plants to use in her potions and ointments. She's enrolling volunteer adventurers to come along and protect her six.",
-    "es": "Cuentan que {DungeonZone:99} alberga a una criatura extraña que nunca antes nadie habría visto. Al parecer, viaja de islote en islote, pero siempre acaba volviendo a su guarida. {Skin:1450}, miembro del {Faction:14}, debe ir a la isla pantanosa para recolectar herbáceos útiles para sus pócimas y ungüentos. Recluta a cualquier aventurero voluntario para acompañarle y cubrirle las espaldas.",
-    "de": "Man erzählt sich, dass {DungeonZone:99} eine seltsame Kreatur beherbergen soll, die noch nie jemand gesehen hat. Sie soll wohl von Insel zu Insel reisen, kehrt aber immer wieder in ihre Höhle zurück. {Skin:1450}, Mitglied vom {Faction:14}, muss auf der Sumpfinsel nützliche Krautpflanzen für Tränke und Salben sammeln. Sie beauftragt jeden freiwilligen Abenteurer, sie zu begleiten und ihr Rückendeckung zu geben.",
-    "pt": "Dizem que {DungeonZone:99} serve de abrigo para uma criatura estranha que nunca foi vista. Aparentemente, ela viaja de ilha em ilha, mas sempre volta para a toca. {Skin:1450}, membro do {Faction:14}, precisa ir até a Ilha Pantanosa para colher plantas e poder preparar poções e unguentos. Ela está atrás de aventureiros que estejam dispostos a acompanhá-la e protegê-la."
-  },
-  "descriptionFinished": {
-    "fr": "{Skin:1857}, la créature du {DungeonZone:99[Marais Fangeux]}, semble immortelle, renaissant de la bourbe continuellement. {Skin:1450} quant à elle est ravie\\_: vos escapades lui permettent de receuillir les ingrédients nécessaires à la fabrication de ses potions.",
-    "en": "{Skin:1857}, the creature from the {DungeonZone:99[Fanged Swamp]}, seems to be immortal, continuously reborn from the mud. {Skin:1450}, for her part, is delighted\\_– your escapades enabled her to collect the ingredients she needs to make her potions.",
-    "es": "{Skin:1857}, la criatura del {DungeonZone:99[Pantano Fangoso]}, parece inmortal, renaciendo del cieno constantemente. {Skin:1450}, por su parte, está feliz: tus escapadas le permiten recoger los ingredientes necesarios para la fabricación de sus pócimas.",
-    "de": "{Skin:1857}, die Kreatur aus dem {DungeonZone:99[Schlammigen Sumpf]} scheint unsterblich zu sein, da sie sich immer wieder aus dem Morast erhebt. {Skin:1450} ist begeistert: Deine Eskapaden ermöglichen es ihr, die erforderlichen Zutaten für die Zubereitung der Tränke zu sammeln.",
-    "pt": "{Skin:1857}, a criatura do {DungeonZone:99[Pântano Abjeto]}, parece ser imortal, renascendo do lodo de forma contínua. No entanto, {Skin:1450} está feliz: suas viagens permitem que ela obtenha os ingredientes necessários para fazer poções."
-  }
+    "values": {
+        "type": "AchievementDefinition",
+        "id": 954,
+        "subAchievements": [
+            16
+        ],
+        "points": 10,
+        "secret": false,
+        "achievementType": 1,
+        "rewards": [],
+        "onSuccess": []
+    },
+    "name": {
+        "fr": "Le Marais Fangeux",
+        "en": "The Fanged Swamp",
+        "es": "El Pantano Fangoso",
+        "de": "Der schlammige Sumpf",
+        "pt": "P\u00e2ntano Abjeto"
+    },
+    "description": {
+        "fr": "On raconte que {DungeonZone:99} abriterait une cr\u00e9ature \u00e9trange que nul n'aurait jamais aper\u00e7u. Elle voyagerait d\u2019\u00eelot en \u00eelot, mais reviendrait toujours \u00e0 sa tani\u00e8re. {Skin:1450}, membre du {Faction:14}, doit se rendre sur l'\u00eele mar\u00e9cageuse afin de r\u00e9colter des herbac\u00e9es utiles \u00e0 ses potions et onguents. Elle missionne tout aventurier volontaire pour l'accompagner et couvrir ses arri\u00e8res.",
+        "en": "That say that {DungeonZone:99} is home to a strange creature that no one has ever seen. It's said it travels from island to island, but always goes back to its lair. {Skin:1450}, a member of the {Faction:14}, must go to the swampy island to collect herbaceous plants to use in her potions and ointments. She's enrolling volunteer adventurers to come along and protect her six.",
+        "es": "Cuentan que {DungeonZone:99} alberga a una criatura extra\u00f1a que nunca antes nadie habr\u00eda visto. Al parecer, viaja de islote en islote, pero siempre acaba volviendo a su guarida. {Skin:1450}, miembro del {Faction:14}, debe ir a la isla pantanosa para recolectar herb\u00e1ceos \u00fatiles para sus p\u00f3cimas y ung\u00fcentos. Recluta a cualquier aventurero voluntario para acompa\u00f1arle y cubrirle las espaldas.",
+        "de": "Man erz\u00e4hlt sich, dass {DungeonZone:99} eine seltsame Kreatur beherbergen soll, die noch nie jemand gesehen hat. Sie soll wohl von Insel zu Insel reisen, kehrt aber immer wieder in ihre H\u00f6hle zur\u00fcck. {Skin:1450}, Mitglied vom {Faction:14}, muss auf der Sumpfinsel n\u00fctzliche Krautpflanzen f\u00fcr Tr\u00e4nke und Salben sammeln. Sie beauftragt jeden freiwilligen Abenteurer, sie zu begleiten und ihr R\u00fcckendeckung zu geben.",
+        "pt": "Dizem que {DungeonZone:99} serve de abrigo para uma criatura estranha que nunca foi vista. Aparentemente, ela viaja de ilha em ilha, mas sempre volta para a toca. {Skin:1450}, membro do {Faction:14}, precisa ir at\u00e9 a Ilha Pantanosa para colher plantas e poder preparar po\u00e7\u00f5es e unguentos. Ela est\u00e1 atr\u00e1s de aventureiros que estejam dispostos a acompanh\u00e1-la e proteg\u00ea-la."
+    },
+    "descriptionFinished": {
+        "fr": "{Skin:1857}, la cr\u00e9ature du {DungeonZone:99[Marais Fangeux]}, semble immortelle, renaissant de la bourbe continuellement. {Skin:1450} quant \u00e0 elle est ravie\\_: vos escapades lui permettent de receuillir les ingr\u00e9dients n\u00e9cessaires \u00e0 la fabrication de ses potions.",
+        "en": "{Skin:1857}, the creature from the {DungeonZone:99[Fanged Swamp]}, seems to be immortal, continuously reborn from the mud. {Skin:1450}, for her part, is delighted\\_\u2013 your escapades enabled her to collect the ingredients she needs to make her potions.",
+        "es": "{Skin:1857}, la criatura del {DungeonZone:99[Pantano Fangoso]}, parece inmortal, renaciendo del cieno constantemente. {Skin:1450}, por su parte, est\u00e1 feliz: tus escapadas le permiten recoger los ingredientes necesarios para la fabricaci\u00f3n de sus p\u00f3cimas.",
+        "de": "{Skin:1857}, die Kreatur aus dem {DungeonZone:99[Schlammigen Sumpf]} scheint unsterblich zu sein, da sie sich immer wieder aus dem Morast erhebt. {Skin:1450} ist begeistert: Deine Eskapaden erm\u00f6glichen es ihr, die erforderlichen Zutaten f\u00fcr die Zubereitung der Tr\u00e4nke zu sammeln.",
+        "pt": "{Skin:1857}, a criatura do {DungeonZone:99[P\u00e2ntano Abjeto]}, parece ser imortal, renascendo do lodo de forma cont\u00ednua. No entanto, {Skin:1450} est\u00e1 feliz: suas viagens permitem que ela obtenha os ingredientes necess\u00e1rios para fazer po\u00e7\u00f5es."
+    }
 }

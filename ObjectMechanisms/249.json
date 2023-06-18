@@ -1,127 +1,100 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": -5788295372574181000
-  },
-  "m_Name": "249",
-  "m_id": 249,
-  "m_displayName": "MONSTRE CHAFER - Tombe Maudite",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": 139721308,
-    "b": 180909732,
-    "c": -676328710,
-    "d": -1963640259,
-    "e": 465708625
-  },
-  "m_i18nDescriptionId": {
-    "a": 139721308,
-    "b": 180909732,
-    "c": -676328710,
-    "d": -1963640259,
-    "e": 709679906
-  },
-  "values": {
-    "type": "ObjectMechanismDefinition",
-    "id": 249,
-    "areaDefinition": {
-      "type": "PointAreaDefinition"
-    },
-    "characterSpecificSkins": {
-      "type": "CharacterSpecificSkins",
-      "defaultSkinId": 8481,
-      "skinIds": [
-        8481
-      ]
-    },
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [
-        {
-          "type": "BuffedScalingDynamicValue",
-          "referenceId": "min",
-          "baseValue": {
-            "type": "ConstIntegerValue",
-            "referenceId": "",
-            "value": 14
-          },
-          "factor": {
-            "type": "ReferenceScalingFactor",
-            "reference": 12
-          },
-          "buffs": [
-            52
-          ],
-          "skillBuffs": [],
-          "from": {
-            "type": "EffectHolderSelector"
-          },
-          "addInsteadOfMultiply": false
+    "values": {
+        "type": "ObjectMechanismDefinition",
+        "id": 249,
+        "areaDefinition": {
+            "type": "PointAreaDefinition"
         },
-        {
-          "type": "BuffedScalingDynamicValue",
-          "referenceId": "max",
-          "baseValue": {
+        "characterSpecificSkins": {
+            "type": "CharacterSpecificSkins",
+            "defaultSkinId": 8481,
+            "skinIds": [
+                8481
+            ]
+        },
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [
+                {
+                    "type": "BuffedScalingDynamicValue",
+                    "referenceId": "min",
+                    "baseValue": {
+                        "type": "ConstIntegerValue",
+                        "referenceId": "",
+                        "value": 14
+                    },
+                    "factor": {
+                        "type": "ReferenceScalingFactor",
+                        "reference": 12
+                    },
+                    "buffs": [
+                        52
+                    ],
+                    "skillBuffs": [],
+                    "from": {
+                        "type": "EffectHolderSelector"
+                    },
+                    "addInsteadOfMultiply": false
+                },
+                {
+                    "type": "BuffedScalingDynamicValue",
+                    "referenceId": "max",
+                    "baseValue": {
+                        "type": "ConstIntegerValue",
+                        "referenceId": "",
+                        "value": 18
+                    },
+                    "factor": {
+                        "type": "ReferenceScalingFactor",
+                        "reference": 12
+                    },
+                    "buffs": [
+                        52
+                    ],
+                    "skillBuffs": [],
+                    "from": {
+                        "type": "EffectHolderSelector"
+                    },
+                    "addInsteadOfMultiply": false
+                }
+            ],
+            "externalDynamicValueReferences": [],
+            "hasEffects": true,
+            "keywordReferences": [
+                "TRAP",
+                {
+                    "type": 6,
+                    "id": 1203
+                },
+                "OBJECTMECHANISM"
+            ]
+        },
+        "families": [],
+        "baseProperties": [],
+        "spells": [],
+        "grade": 3,
+        "scale": {
+            "type": "ReferenceScalingFactor",
+            "reference": 18
+        },
+        "baseMecaLife": {
             "type": "ConstIntegerValue",
             "referenceId": "",
-            "value": 18
-          },
-          "factor": {
-            "type": "ReferenceScalingFactor",
-            "reference": 12
-          },
-          "buffs": [
-            52
-          ],
-          "skillBuffs": [],
-          "from": {
-            "type": "EffectHolderSelector"
-          },
-          "addInsteadOfMultiply": false
+            "value": 20
         }
-      ],
-      "externalDynamicValueReferences": [],
-      "hasEffects": true,
-      "keywordReferences": [
-        "TRAP",
-        {
-          "type": 6,
-          "id": 1203
-        },
-        "OBJECTMECHANISM"
-      ]
     },
-    "families": [],
-    "baseProperties": [],
-    "spells": [],
-    "grade": 3,
-    "scale": {
-      "type": "ReferenceScalingFactor",
-      "reference": 18
+    "name": {
+        "fr": "",
+        "en": "",
+        "es": "",
+        "de": "",
+        "pt": ""
     },
-    "baseMecaLife": {
-      "type": "ConstIntegerValue",
-      "referenceId": "",
-      "value": 20
+    "description": {
+        "fr": "",
+        "en": "",
+        "es": "",
+        "de": "",
+        "pt": ""
     }
-  },
-  "name": {
-    "fr": "",
-    "en": "",
-    "es": "",
-    "de": "",
-    "pt": ""
-  },
-  "description": {
-    "fr": "",
-    "en": "",
-    "es": "",
-    "de": "",
-    "pt": ""
-  }
 }

@@ -1,124 +1,90 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 1184744391705158400
-  },
-  "m_Name": "53",
-  "m_id": 53,
-  "m_displayName": "MONSTRE BOUFTOU - CLAN DÉGÉNÉRÉ - Bouftou de Combat Dégénéré",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": -1774015611,
-    "b": -1477901820,
-    "c": -1232971303,
-    "d": -136725575,
-    "e": -1125791878
-  },
-  "m_i18nChampionNameId": {
-    "a": -1774015611,
-    "b": -1477901820,
-    "c": -1232971303,
-    "d": -136725575,
-    "e": -420192363
-  },
-  "m_i18nDescriptionId": {
-    "a": -1774015611,
-    "b": -1477901820,
-    "c": -1232971303,
-    "d": -136725575,
-    "e": -1095750982
-  },
-  "values": {
-    "type": "SummoningDefinition",
-    "id": 53,
-    "areaDefinition": {
-      "type": "PointAreaDefinition"
+    "values": {
+        "type": "SummoningDefinition",
+        "id": 53,
+        "areaDefinition": {
+            "type": "PointAreaDefinition"
+        },
+        "characterSpecificSkins": {
+            "type": "CharacterSpecificSkins",
+            "defaultSkinId": 169,
+            "skinIds": [
+                169
+            ]
+        },
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [],
+            "externalDynamicValueReferences": [],
+            "hasEffects": true,
+            "keywordReferences": [
+                "TROUPEAU",
+                {
+                    "type": 19,
+                    "id": 902
+                }
+            ]
+        },
+        "families": [
+            36
+        ],
+        "baseProperties": [],
+        "life": {
+            "type": "ConstIntegerValue",
+            "referenceId": "",
+            "value": 81
+        },
+        "movementPoints": {
+            "type": "ConstIntegerValue",
+            "referenceId": "",
+            "value": 3
+        },
+        "actionValue": {
+            "type": "ConstIntegerValue",
+            "referenceId": "",
+            "value": 20
+        },
+        "riposte": null,
+        "actionCriticalChance": {
+            "type": "ConstIntegerValue",
+            "referenceId": "",
+            "value": 50
+        },
+        "actionCriticalBonus": null,
+        "customActionTarget": null,
+        "actionType": 1,
+        "actionRange": null,
+        "lifeScale": {
+            "type": "ReferenceScalingFactor",
+            "reference": 16
+        },
+        "attackScale": {
+            "type": "ReferenceScalingFactor",
+            "reference": 7
+        },
+        "spells": [],
+        "grade": 1,
+        "growInto": null
     },
-    "characterSpecificSkins": {
-      "type": "CharacterSpecificSkins",
-      "defaultSkinId": 169,
-      "skinIds": [
-        169
-      ]
+    "name": {
+        "fr": "{0, plural, one[Bouftou de Combat D\u00e9g\u00e9n\u00e9r\u00e9] other[Bouftous de Combat D\u00e9g\u00e9n\u00e9r\u00e9s]}",
+        "en": "{0, plural, one[Degenerate Battle Gobball] other[Degenerated Battle Gobballs]}",
+        "es": "{0, plural, one[Jalat\u00f3 de Combate Degenerado] other[Jalat\u00f3s de Combate Degenerados]}",
+        "de": "{0, plural, one[Verdorbener Kampf-Fresssack] other[Verdorbene Kampf-Fresss\u00e4cke]}",
+        "pt": "{0, plural, one[Papatudo de Combate Degenerado] other[Papatudos de Combate Degenerados]}"
     },
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [],
-      "externalDynamicValueReferences": [],
-      "hasEffects": true,
-      "keywordReferences": [
-        "TROUPEAU",
-        {
-          "type": 19,
-          "id": 902
-        }
-      ]
+    "description": {
+        "fr": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}\\_: D\u00e9clenche son {%AT} sur un adversaire adjacent\\_<sprite name=\"cell_cross\">.",
+        "en": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Triggers {%AT} on an adjacent\\_<sprite name=\"cell_cross\"> opponent.",
+        "es": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Activa su {%AT} sobre un adversario adyacente\\_<sprite name=\"cell_cross\">.",
+        "de": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: F\u00fchrt seinen {%AT} gegen einen angrenzenden\\_<sprite name=\"cell_cross\"> Gegner aus.",
+        "pt": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Aciona seu {%AT} em um advers\u00e1rio adjacente\\_<sprite name=\"cell_cross\">."
     },
-    "families": [
-      36
-    ],
-    "baseProperties": [],
-    "life": {
-      "type": "ConstIntegerValue",
-      "referenceId": "",
-      "value": 81
-    },
-    "movementPoints": {
-      "type": "ConstIntegerValue",
-      "referenceId": "",
-      "value": 3
-    },
-    "actionValue": {
-      "type": "ConstIntegerValue",
-      "referenceId": "",
-      "value": 20
-    },
-    "riposte": null,
-    "actionCriticalChance": {
-      "type": "ConstIntegerValue",
-      "referenceId": "",
-      "value": 50
-    },
-    "actionCriticalBonus": null,
-    "customActionTarget": null,
-    "actionType": 1,
-    "actionRange": null,
-    "lifeScale": {
-      "type": "ReferenceScalingFactor",
-      "reference": 16
-    },
-    "attackScale": {
-      "type": "ReferenceScalingFactor",
-      "reference": 7
-    },
-    "spells": [],
-    "grade": 1,
-    "growInto": null
-  },
-  "name": {
-    "fr": "{0, plural, one[Bouftou de Combat Dégénéré] other[Bouftous de Combat Dégénérés]}",
-    "en": "{0, plural, one[Degenerate Battle Gobball] other[Degenerated Battle Gobballs]}",
-    "es": "{0, plural, one[Jalató de Combate Degenerado] other[Jalatós de Combate Degenerados]}",
-    "de": "{0, plural, one[Verdorbener Kampf-Fresssack] other[Verdorbene Kampf-Fresssäcke]}",
-    "pt": "{0, plural, one[Papatudo de Combate Degenerado] other[Papatudos de Combate Degenerados]}"
-  },
-  "description": {
-    "fr": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}\\_: Déclenche son {%AT} sur un adversaire adjacent\\_<sprite name=\"cell_cross\">.",
-    "en": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Triggers {%AT} on an adjacent\\_<sprite name=\"cell_cross\"> opponent.",
-    "es": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Activa su {%AT} sobre un adversario adyacente\\_<sprite name=\"cell_cross\">.",
-    "de": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Führt seinen {%AT} gegen einen angrenzenden\\_<sprite name=\"cell_cross\"> Gegner aus.",
-    "pt": "<rem>{NamedEffect:902}</rem>\n\\---\n{#TROUPEAU}: Aciona seu {%AT} em um adversário adjacente\\_<sprite name=\"cell_cross\">."
-  },
-  "championName": {
-    "fr": "Charmois révolutionné",
-    "en": "Revolutionary Charmois",
-    "es": "Gamuzo Revolucionado",
-    "de": "Revolutionierte Grams",
-    "pt": "Charmois Revolucionário"
-  }
+    "championName": {
+        "fr": "Charmois r\u00e9volutionn\u00e9",
+        "en": "Revolutionary Charmois",
+        "es": "Gamuzo Revolucionado",
+        "de": "Revolutionierte Grams",
+        "pt": "Charmois Revolucion\u00e1rio"
+    }
 }

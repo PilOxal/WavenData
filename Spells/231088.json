@@ -1,140 +1,105 @@
 {
-  "m_GameObject": {
-    "m_FileID": 0,
-    "m_PathID": 0
-  },
-  "m_Enabled": 1,
-  "m_Script": {
-    "m_FileID": 0,
-    "m_PathID": 4088305958716738000
-  },
-  "m_Name": "231088",
-  "m_id": 231088,
-  "m_displayName": "SACRIEUR - ARME - PILOBOULI - ETHER - Absolution",
-  "m_availability": 3,
-  "m_i18nNameId": {
-    "a": -899411312,
-    "b": -207275084,
-    "c": -563927879,
-    "d": -1876139909,
-    "e": -1637412652
-  },
-  "m_i18nDescriptionId": {
-    "a": -899411312,
-    "b": -207275084,
-    "c": -563927879,
-    "d": -1876139909,
-    "e": 1991932366
-  },
-  "m_elementaryStates": 1,
-  "m_illustrationReference": {
-    "assetGuid": "67ef9e8585a86774a84fe26ef60c9692"
-  },
-  "m_spellEffectOverrideReferences": {
-    "m_keys": [],
-    "m_values": []
-  },
-  "values": {
-    "type": "SpellDefinition",
-    "id": 231088,
-    "merchantCosts": [],
-    "premiumItem": false,
-    "rarity": 0,
-    "unlockableSkillIds": [],
-    "upgradeRuleId": 247,
-    "canCrit": true,
-    "isEphemeral": false,
-    "tags": [],
-    "details": {
-      "type": "SpellDetails",
-      "equipableByPlayers": true,
-      "element": 6,
-      "specificToWeapon": 43,
-      "families": [
-        8
-      ],
-      "heroSkillPointsCost": 50,
-      "bannedInPvp": false
-    },
-    "gaugeToModifyOnSpellPlay": [
-      {
-        "type": "GaugeValue",
-        "element": 57,
-        "value": {
-          "type": "ConstIntegerValue",
-          "referenceId": "",
-          "value": 1
-        }
-      }
-    ],
-    "costs": [
-      {
-        "type": "ActionPointsCost",
-        "value": {
-          "type": "ConstIntegerValue",
-          "referenceId": "",
-          "value": 3
-        }
-      }
-    ],
-    "castCondition": null,
-    "castTarget": {
-      "type": "OneCastTargetDefinition",
-      "selector": {
-        "type": "FilteredCharacterSelector",
-        "filters": [
-          {
-            "type": "TeamFilter",
-            "isIdentical": false,
-            "reference": {
-              "type": "CasterSelector"
+    "values": {
+        "type": "SpellDefinition",
+        "id": 231088,
+        "merchantCosts": [],
+        "premiumItem": false,
+        "rarity": 0,
+        "unlockableSkillIds": [],
+        "upgradeRuleId": 247,
+        "canCrit": true,
+        "isEphemeral": false,
+        "tags": [],
+        "details": {
+            "type": "SpellDetails",
+            "equipableByPlayers": true,
+            "element": 6,
+            "specificToWeapon": 43,
+            "families": [
+                8
+            ],
+            "heroSkillPointsCost": 50,
+            "bannedInPvp": false
+        },
+        "gaugeToModifyOnSpellPlay": [
+            {
+                "type": "GaugeValue",
+                "element": 57,
+                "value": {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "",
+                    "value": 1
+                }
             }
-          }
-        ]
-      }
-    },
-    "spellEffectData": [
-      {
-        "type": "SpellEffectInstantiationData",
-        "spellEffect": "3a40e078259415e458a17e9adb49f935",
-        "originTarget": {
-          "type": "FirstCastTargetSelector"
+        ],
+        "costs": [
+            {
+                "type": "ActionPointsCost",
+                "value": {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "",
+                    "value": 3
+                }
+            }
+        ],
+        "castCondition": null,
+        "castTarget": {
+            "type": "OneCastTargetDefinition",
+            "selector": {
+                "type": "FilteredCharacterSelector",
+                "filters": [
+                    {
+                        "type": "TeamFilter",
+                        "isIdentical": false,
+                        "reference": {
+                            "type": "CasterSelector"
+                        }
+                    }
+                ]
+            }
         },
-        "orientation": null,
-        "delay": null
-      }
-    ],
-    "precomputedData": {
-      "type": "PrecomputedData",
-      "dynamicValueReferences": [
-        {
-          "type": "ConstIntegerValue",
-          "referenceId": "percentAtt",
-          "value": 50
-        },
-        {
-          "type": "ConstIntegerValue",
-          "referenceId": "auraGain",
-          "value": 1
+        "spellEffectData": [
+            {
+                "type": "SpellEffectInstantiationData",
+                "spellEffect": "3a40e078259415e458a17e9adb49f935",
+                "originTarget": {
+                    "type": "FirstCastTargetSelector"
+                },
+                "orientation": null,
+                "delay": null
+            }
+        ],
+        "precomputedData": {
+            "type": "PrecomputedData",
+            "dynamicValueReferences": [
+                {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "percentAtt",
+                    "value": 50
+                },
+                {
+                    "type": "ConstIntegerValue",
+                    "referenceId": "auraGain",
+                    "value": 1
+                }
+            ],
+            "externalDynamicValueReferences": [],
+            "hasEffects": true,
+            "keywordReferences": []
         }
-      ],
-      "externalDynamicValueReferences": [],
-      "hasEffects": true,
-      "keywordReferences": []
+    },
+    "name": {
+        "fr": "Absolution",
+        "en": "Absolution",
+        "es": "Absoluci\u00f3n",
+        "de": "Absolution",
+        "pt": "Absolvi\u00e7\u00e3o"
+    },
+    "description": {
+        "fr": "Inflige {value:percentAtt,percent} de son {%AT} \u00e0 un adversaire.\n\\---\nSi la cible poss\u00e8de un \u00e9tat \u00e9l\u00e9mentaire, {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} du m\u00eame \u00e9l\u00e9ment \u00e0\\_votre\\_h\u00e9ros.",
+        "en": "Inflicts {value:percentAtt,percent} of their {%power} on an opponent.\n\\---\nIf they have an elemental state: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} in the same element as\\_your\\_hero.",
+        "es": "Inflige un {value:percentAtt,percent} de su {%power} a un adversario.\n\\---\nSi este tiene un estado elemental: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} del mismo elemento a\\_tu\\_h\u00e9roe.",
+        "de": "Verursacht {value:percentAtt,percent} seiner {%power} bei einem Gegner.\n\\---\nWenn er einen Elementarzustand hat: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} desselben Elements f\u00fcr\\_deinen\\_Helden.",
+        "pt": "Inflige {value:percentAtt,percent} de seu {%power} a um advers\u00e1rio.\n\\---\nSe ele possuir um estado elementar: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} do mesmo elemento ao\\_seu\\_her\u00f3i."
     }
-  },
-  "name": {
-    "fr": "Absolution",
-    "en": "Absolution",
-    "es": "Absolución",
-    "de": "Absolution",
-    "pt": "Absolvição"
-  },
-  "description": {
-    "fr": "Inflige {value:percentAtt,percent} de son {%AT} à un adversaire.\n\\---\nSi la cible possède un état élémentaire, {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} du même élément à\\_votre\\_héros.",
-    "en": "Inflicts {value:percentAtt,percent} of their {%power} on an opponent.\n\\---\nIf they have an elemental state: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} in the same element as\\_your\\_hero.",
-    "es": "Inflige un {value:percentAtt,percent} de su {%power} a un adversario.\n\\---\nSi este tiene un estado elemental: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} del mismo elemento a\\_tu\\_héroe.",
-    "de": "Verursacht {value:percentAtt,percent} seiner {%power} bei einem Gegner.\n\\---\nWenn er einen Elementarzustand hat: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} desselben Elements für\\_deinen\\_Helden.",
-    "pt": "Inflige {value:percentAtt,percent} de seu {%power} a um adversário.\n\\---\nSe ele possuir um estado elementar: {value:auraGain,+}\\_{%KEYWORD.AURA.NAME,value:auraGain} do mesmo elemento ao\\_seu\\_herói."
-  }
 }
